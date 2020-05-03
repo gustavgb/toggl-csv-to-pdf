@@ -1,0 +1,17 @@
+{
+  "name": "toggl-csv-to-pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/report-to-pdf.js",
+  "keywords": [],
+  "bin": {
+    "toggl-csv-to-pdf": "bin/report-to-pdf.js"
+  },
+  "author": "Gustav Burchardt",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^4.9.0",
+    "node-flag": "^1.5.1",
+    "pdf-creator-node": "^1.4.1"
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hello world!</title>
+    <style>
+      body {
+        font-size: 12px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tracked hours</h1>
+    <ul>
+      {{#each entries}}
+      <li>Project: {{this.Project}}</li>
+      <li>Client: {{this.Client}}</li>
+      <li>Title: {{this.Title}}</li>
+      <li>Duration: {{this.Duration}}</li>
+      <br>
+    {{/each}}
+    </ul>
+  </body>
+</html>
