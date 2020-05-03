@@ -8,7 +8,7 @@ Essentially this is a script to generate a PDF using Handlebars to render an HTM
 
 Assuming you've added the directory to your PATH (or that the module has been installed globally with npm)
 
-`report-to-pdf FILE.csv OUTPUT.pdf [--filter "filter query"] [--v]`
+`toggl-csv-to-pdf FILE.csv OUTPUT.pdf [--filter "filter query"] [--v]`
 
 options:
 * --filter: Comma separated queries that describe how to filter the CSV data. Example: `"Project:ProjectId,Duration>00:05:00"` (Select only entries with Project === ProjectId and a duration greater than 5 minutes)
